@@ -1,0 +1,23 @@
+class Main {
+    public List<List<Integer>> kPairs(int[] nums1, int[] nums2, int k) {
+        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        if(nums1 == null || nums2 == null ||nums1.length ==0 || nums2.length ==0)
+            return ans;
+        
+        for(int i=0; i<nums1.length; i++)
+        {
+            for(int j=0; j<nums2.length; j++)
+            {
+            List<Integer> row = new ArrayList<Integer>();
+            row.add(nums1[i]);
+            row.add(nums2[j]);
+            ans.add(row);    
+            }
+        }
+        
+        Collections.sort(ans, (x,y)-> (x.get(0)+x.get(1)) – (y.get(0) + y.get(1)));
+        if(k < ans.size())
+            ans = ans.subList(0,k);
+        return ans;
+    }
+}
