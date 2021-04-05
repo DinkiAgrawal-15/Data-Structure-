@@ -1,0 +1,55 @@
+class Node {  
+
+ int data;  
+
+Node next;  
+
+ Node(int d)
+
+{ 
+
+data = d;  
+
+next=null;
+ }  
+     }  
+     
+    /////////Java code for creating a singly linked list
+     
+     public class LinkedList  
+{  
+ Node head;  // head of list  
+ static class Node {  
+ int data;  
+         Node next;  
+ Node(int d)  
+ { 
+     data = d;  next=null; 
+}  
+     
+    }  
+     //print from start to end 
+ public void show()  
+     {  
+         Node n = head;  
+ while (n != null)  
+         {  
+ System.out.print(n.data+” \n“);  
+             n = n.next;  
+         }  
+     }  
+     
+ public static void main(String[] args)  
+     {  
+         /* Start with the empty list. */  
+ LinkedListExamples list = new LinkedListExamples();  
+  
+ list.head = new Node(300);  
+         Node second      = new Node(400);  
+         Node third       = new Node(500);  
+  
+ list.head.next = second; // Link first node–> second node  
+ second.next = third; // Link first node –>second node  
+ list.show();  
+     }  
+}  
