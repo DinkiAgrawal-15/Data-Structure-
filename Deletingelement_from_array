@@ -10,6 +10,7 @@ class ArrayTest {
 		//The space that is left at the end is filled with character '0'
 		ar[ar.length-1]='0';
 	}
+	
 }
 
 class Tester{
