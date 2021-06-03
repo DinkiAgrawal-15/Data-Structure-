@@ -31,6 +31,7 @@ public class Main {
 			mergeSort(a, mid + 1, end);
 			merge(a, strt, mid, end);
 		}
+		
 	}
 
 	static void merge(int[] a, int strt, int mid, int end)  //after sorting this function merge the array
