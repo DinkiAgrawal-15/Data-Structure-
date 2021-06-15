@@ -1,3 +1,4 @@
+```java
 class Queue {
 	private int front; // front represents the index position of the first element in the queue
 	private int rear; // rear represents the index position of the last element in the queue
@@ -53,3 +54,4 @@ class Tester {
 	
 	}
 }
+```
