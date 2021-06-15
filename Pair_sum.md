@@ -1,3 +1,4 @@
+```java
 class Main {
 
     static void pairssum(int a[],
@@ -20,3 +21,4 @@ class Main {
         pairssum(a, size, sum);
     }
 }
+```
