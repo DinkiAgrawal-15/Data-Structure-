@@ -1,3 +1,4 @@
+```java
 import java.util.*;
 class Main
 {
@@ -33,3 +34,4 @@ class Main
                 ob.printArray(a); //calling the printArray function
              }
 }
+```
