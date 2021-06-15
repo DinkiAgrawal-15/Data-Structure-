@@ -1,7 +1,7 @@
+```java
 import java.util.*;
 class Main
-	{ 
-		// Main method 
+	{
    public static void main(String args[]) 
     { 
         int a[] = { 12,11,13,5,6 };
@@ -11,18 +11,13 @@ class Main
 
         printArray(a); 
     }
-    /*Function to sort array using insertion sort*/
     void sort(int a[]) 
     { 
-        int len = a.length;//calculating the length of the array 
+        int len = a.length;
         for (int i = 1; i < len; i++) 
 	   { 
             int key = a[i]; 
             int j = i - 1; 
-
-            /* Shift elements of a[0..i-1], that are 
-               greater than key, to one position ahead 
-               of their current position */
             while (j >= 0 && a[j] > key) 
 				{ 
                   a[j + 1] = a[j]; 
@@ -32,7 +27,6 @@ class Main
             } 
     } 
 
-    /* A utility function to print array of size n*/
     static void printArray(int a[]) 
     { 
         int len = a.length; 
@@ -41,3 +35,4 @@ class Main
             System.out.println(); 
     } 
   }
+```
