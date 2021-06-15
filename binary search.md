@@ -11,6 +11,7 @@ public class BinarySearch {
 		System.out.print("Enter the elements into the array : ");
 		int a[] = new int[n];
 		for(int i = 0 ; i < n ; i++)
+		
 		{
 			a[i] = sc.nextInt();
 		}
