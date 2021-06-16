@@ -1,3 +1,4 @@
+```java
 class ArrayTest {
 
 	public static void delete(char[] ar, int pos){
@@ -30,3 +31,4 @@ class Tester{
 	}
 
 }
+```
