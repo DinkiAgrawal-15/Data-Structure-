@@ -1,3 +1,5 @@
+
+```java
 class ArrayTest {
 	
 	public static void insert(char[] ar, int pos, char val){
@@ -29,3 +31,4 @@ class Tester{
 	}
 
 }
+```
