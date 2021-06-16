@@ -1,3 +1,4 @@
+```java
 import java.util.*;
 class RotateArray {
     /*Function to left rotate arr[] of size n by d*/
@@ -32,4 +33,5 @@ class RotateArray {
         rotate.leftRotate(arr, 2, 7);
         rotate.printArray(arr, 7);
     }
+    ```
 }
