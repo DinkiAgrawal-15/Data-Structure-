@@ -1,4 +1,6 @@
+![full Binary tree](https://cdn.programiz.com/sites/tutorial2program/files/full-binary-tree_0.png)
 ```java
+
 // Checking if a binary tree is a full binary tree in Java
 
 class Node {
