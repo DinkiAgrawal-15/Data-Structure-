@@ -1,3 +1,4 @@
+```java
 import java.util.*; 
 class Main 
 { 
@@ -32,3 +33,4 @@ class Main
             System.out.print(i + ” “); 
     } 
 } 
+```
