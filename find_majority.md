@@ -1,3 +1,4 @@
+```java
 import java.io.*;
 
 class Main {
