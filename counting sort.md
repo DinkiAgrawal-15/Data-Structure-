@@ -1,3 +1,4 @@
+```java
 // Counting sort in Java programming
 
 import java.util.Arrays;
@@ -52,3 +53,4 @@ class CountingSort {
     System.out.println(Arrays.toString(data));
   }
 }
+```
