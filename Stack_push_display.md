@@ -1,3 +1,4 @@
+```java
 class Stack {
 	private int top; // represents the index position of the top most element in the stack
 	private int maxSize; // represents the maximum number of elements that can be stored in the stack
@@ -87,3 +88,4 @@ class Tester {
 
 	}
 }
+```
