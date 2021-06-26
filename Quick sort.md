@@ -1,3 +1,4 @@
+```java
 // Quick sort in Java
 
 import java.util.Arrays;
@@ -73,3 +74,4 @@ class Main {
     System.out.println(Arrays.toString(data));
   }
 }
+```
