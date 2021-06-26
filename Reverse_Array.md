@@ -1,3 +1,4 @@
+```java
 public class reverseArray {
   
     /* function that reverses array and stores it 
@@ -24,3 +25,4 @@ public class reverseArray {
         reverse(arr, arr.length);
     }
 }
+```
