@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -33,3 +34,4 @@ Enter the elements in array
 Enter the element to be search
 8
 is present in the index4
+```
