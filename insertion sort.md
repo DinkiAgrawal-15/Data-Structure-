@@ -1,5 +1,5 @@
 // Insertion sort in Java
-
+```java
 import java.util.Arrays;
 
 class InsertionSort {
@@ -33,3 +33,4 @@ class InsertionSort {
     System.out.println(Arrays.toString(data));
   }
 }
+```
