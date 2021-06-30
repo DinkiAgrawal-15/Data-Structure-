@@ -1,3 +1,4 @@
+```java
 class A{  
 A(){  
 System.out.println("parent class constructor invoked");  
@@ -15,3 +16,4 @@ public static void main(String args[]){
 B2 b=new B2();  
 }  
 }  
+```
