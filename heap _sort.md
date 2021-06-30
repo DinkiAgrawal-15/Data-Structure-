@@ -1,5 +1,5 @@
 // Heap Sort in Java
-  
+```java  
   public class HeapSort {
   
     public void sort(int arr[]) {
@@ -62,3 +62,4 @@
       printArray(arr);
     }
   }
+```
