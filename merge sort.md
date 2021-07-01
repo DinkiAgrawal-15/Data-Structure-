@@ -1,3 +1,4 @@
+```java
 // Merge sort in Java
 
 class MergeSort {
@@ -85,3 +86,4 @@ class MergeSort {
     printArray(arr);
   }
 }
+```
