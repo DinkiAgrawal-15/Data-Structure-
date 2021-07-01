@@ -1,4 +1,5 @@
 // Shell sort in Java programming
+```java
 
 import java.util.Arrays;
 
@@ -29,3 +30,4 @@ class ShellSort {
   System.out.println(Arrays.toString(data));
   }
 }
+```
