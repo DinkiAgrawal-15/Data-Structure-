@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;  
   
 public class SelectionSortExample2  
@@ -38,3 +39,4 @@ public class SelectionSortExample2
        }  
    }  
 }  
+```
