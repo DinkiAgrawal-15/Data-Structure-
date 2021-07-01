@@ -1,3 +1,4 @@
+```java
 import java.util.*;
 public class Main {
 	public static void display(int[] arr, int size)   //this function display the array
@@ -60,3 +61,4 @@ public class Main {
 		}
 	}
 }
+```
